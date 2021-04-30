@@ -28,7 +28,7 @@ subButton.addEventListener('click', () => {
     
     console.log (answer);
 
-    addResultEl.textContent = answer;
+    subResultEl.textContent = answer;
 });
 
 const mulInputEl1 = document.getElementById('mul-input-one');
